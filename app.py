@@ -5,14 +5,14 @@ import io
 
 # Page configuration
 st.set_page_config(
-    page_title="LaTeX OCR with Llama 3.2 Vision",
+    page_title="LaTeX-Reader with Llama 3.2 Vision",
     page_icon="🦙",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
 # Title and description in main area
-st.title("🦙 LaTeX OCR with Llama 3.2 Vision")
+st.title("🦙 LaTeX-Reader with Llama 3.2 Vision")
 
 # Add clear button to top right
 col1, col2 = st.columns([6, 1])
